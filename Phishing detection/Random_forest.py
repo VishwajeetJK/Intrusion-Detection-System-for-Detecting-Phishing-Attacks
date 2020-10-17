@@ -52,7 +52,7 @@ prediction = forest_reg.predict(x_test)
 rmse = mean_squared_error(y_pred,y_test.ravel())
 
 
-#pickle file joblib
+#pickle file or joblib
 joblib.dump(classifier, 'rf_final.pkl')
 
 #Features Importance random forest
