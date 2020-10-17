@@ -67,7 +67,7 @@ recall = recall_score(y_train1, y_pred , average="binary")
 precision = precision_score(y_train1, y_pred , average="binary")
 f1 = f1_score(y_train1, y_pred, average="binary")
 
-print("accuracy")
+print("accuracy is given as:")
 print("%.3f" %accuracy)
 print("precision")
 print("%.3f" %precision)
