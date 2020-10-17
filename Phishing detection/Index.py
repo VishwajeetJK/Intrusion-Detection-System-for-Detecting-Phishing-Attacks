@@ -16,6 +16,6 @@ prediction = classifier.predict(checkprediction)
 
 #Printing the result
 if(prediction == 1):
-    print("The site is a phishing site")
+    print("This site is a phishing site")
 else:
-    print("The site is not a phishing site")
+    print("This site is not a phishing site")
